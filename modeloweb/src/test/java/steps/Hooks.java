@@ -8,11 +8,11 @@ public class Hooks {
 
 	@Before
 	public void setUp() {
-		webDriverFactory.startChromeDriver();
+		//webDriverFactory.startChromeDriver();
 	}
 	
 	@After
 	public void tearDown() {
-		webDriverFactory.killCurrentDriver();
+		//webDriverFactory.killCurrentDriver();
 	}
 }
